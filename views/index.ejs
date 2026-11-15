@@ -1,0 +1,141 @@
+<!-- Include the shared header -->
+<%- include('partials/header') %>
+
+<!-- Homepage introduction -->
+<section class="container py-5">
+
+    <div class="row align-items-center">
+
+        <div class="col-lg-7">
+
+            <h1 class="display-4 fw-bold">
+                Hello, I'm Ahmed Sher!
+            </h1>
+
+            <h2 class="h4 text-secondary mt-3">
+                Welcome to My Personal Portfolio
+            </h2>
+
+            <p class="lead mt-4">
+                Welcome to my personal website!
+                This portfolio gives you a glimpse
+                into my interests, experiences,
+                and the projects I have completed.
+            </p>
+
+            <p>
+                I enjoy exploring technology,
+                learning new skills, and taking
+                on challenges that help me grow.
+                Feel free to explore my website
+                and learn more about me.
+            </p>
+
+            <a href="/about" class="btn btn-dark btn-lg mt-3">
+                <i class="fa-solid fa-user"></i>
+                Discover More About Me
+            </a>
+
+        </div>
+
+        <div class="col-lg-5 text-center mt-4 mt-lg-0">
+
+            <img src="/images/ahmed-fireworks.png"
+                 alt="Ahmed Sher enjoying Canada Day fireworks"
+                 class="img-fluid rounded shadow">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Portfolio navigation cards -->
+<section class="container py-5">
+
+    <h2 class="text-center mb-4">
+        Explore My Portfolio
+    </h2>
+
+    <div class="row g-4">
+
+        <!-- About Me card -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-user fa-3x mb-3"></i>
+
+                    <h3 class="card-title h5">About Me</h3>
+
+                    <p class="card-text">
+                        Learn about my background,
+                        interests, and experiences.
+                    </p>
+
+                    <a href="/about" class="btn btn-outline-dark">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Projects card -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-laptop-code fa-3x mb-3"></i>
+
+                    <h3 class="card-title h5">My Projects</h3>
+
+                    <p class="card-text">
+                        Discover the academic and
+                        practical projects I have
+                        worked on.
+                    </p>
+
+                    <a href="/projects" class="btn btn-outline-dark">
+                        View Projects
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Contact card -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-envelope fa-3x mb-3"></i>
+
+                    <h3 class="card-title h5">Contact Me</h3>
+
+                    <p class="card-text">
+                        Have a question or want
+                        to connect? Feel free
+                        to reach out.
+                    </p>
+
+                    <a href="/contact" class="btn btn-outline-dark">
+                        Get in Touch
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Include the shared footer -->
+<%- include('partials/footer') %>
