@@ -19,7 +19,14 @@
 
                     <h2 class="h4 mb-4">Send Me a Message</h2>
 
-                    <form>
+
+<% if (typeof success !== 'undefined' && success) { %>
+    <div class="alert alert-success" role="alert">
+        Your form was submitted successfully!
+    </div>
+<% } %>
+
+                    <form action="/contact" method="POST">
 
                         <div class="mb-3">
                             <label for="name" class="form-label">
